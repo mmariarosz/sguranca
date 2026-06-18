@@ -1,1 +1,1 @@
-# sguranca
+# seguranca

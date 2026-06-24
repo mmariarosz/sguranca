@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root{
-    --branco: #FFFFFF;
-    --cor-de-fundo: #FFF0F5;
-    --fundo-senha: #FFB6C1;
-    --fundo-texto: #DB7093;
-    --borda: #FF69B4;
-    --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
-}
+        --branco: #FFFFFF;
+            --cor-de-fundo: #FFE4EC;
+                --fundo-senha: #FFB6C1;
+                    --fundo-texto: #DB7093;
+                        --borda: #FF69B4;
+                            --roboto: 'Roboto', sans-serif;
+                                --roboto-mono: 'Roboto Mono', monospace;
+                                }
+
 
                             *{
                                 font-weight: 400;
@@ -44,7 +45,7 @@
                                                                                 #campo-senha{
                                                                                     background-color: var(--fundo-senha);
                                                                                         border: none;
-                                                                                            color: var(--branco);
+                                                                                            color: #8B004F;
                                                                                                 font-family: var(--roboto-mono);
                                                                                                     font-size: 40px;
                                                                                                         width: 70%;
@@ -149,36 +150,40 @@
                                                                                                                                                                                                                                                                                                     .parametro-coluna__senha{
                                                                                                                                                                                                                                                                                                             flex-direction: row;
                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                    .footer {
-    background-color: #C71585;
-    color: #FFE4F2;
-    text-align: center;
-    padding: 25px 20px;
-    margin-top: 40px;
-    border-top: 1px solid #FF69B4;
-    font-size: 0.9rem;
-}
+                                                                                                                                                                                                                                                                                                                }
 
-.footer .container {
-    max-width: 800px;
-    margin: 0 auto;
-}
+                                                                                                                                                                                                                                                                                                                .footer {
+                                                                                                                                                                                                                                                                                                                    background-color: #C71585;
+                                                                                                                                                                                                                                                                                                                        color: #FFE4F2;
+                                                                                                                                                                                                                                                                                                                            text-align: center;
+                                                                                                                                                                                                                                                                                                                                padding: 25px 20px;
+                                                                                                                                                                                                                                                                                                                                    margin-top: 40px;
+                                                                                                                                                                                                                                                                                                                                        border-top: 1px solid #FF69B4;
+                                                                                                                                                                                                                                                                                                                                            font-size: 0.9rem;
+                                                                                                                                                                                                                                                                                                                                            }
 
-.footer strong {
-    color: #FFFFFF;
-}
+                                                                                                                                                                                                                                                                                                                                            .footer .container {
+                                                                                                                                                                                                                                                                                                                                                max-width: 800px;
+                                                                                                                                                                                                                                                                                                                                                    margin: 0 auto;
+                                                                                                                                                                                                                                                                                                                                                    }
 
-.footer-links {
-    margin-top: 12px;
-}
+                                                                                                                                                                                                                                                                                                                                                    .footer strong {
+                                                                                                                                                                                                                                                                                                                                                        color: #FFFFFF;
+                                                                                                                                                                                                                                                                                                                                                        }
 
-.footer-links a {
-    color: #FFD1E8;
-    text-decoration: none;
-    transition: color 0.3s;
-}
+                                                                                                                                                                                                                                                                                                                                                        .footer-links {
+                                                                                                                                                                                                                                                                                                                                                            margin-top: 12px;
+                                                                                                                                                                                                                                                                                                                                                            }
 
-.footer-links a:hover {
-    color: #FFFFFF;
-}      
-                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                                                            .footer-links a {
+                                                                                                                                                                                                                                                                                                                                                                color: #FFD1E8;
+                                                                                                                                                                                                                                                                                                                                                                    text-decoration: none;
+                                                                                                                                                                                                                                                                                                                                                                        transition: color 0.3s;
+                                                                                                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                                                                                                        .footer-links a:hover {
+                                                                                                                                                                                                                                                                                                                                                                            color: #FFFFFF;
+                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                    

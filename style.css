@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root{
-    --branco: white;
-        --cor-de-fundo: #B22222;
-            --fundo-senha: #87CEFA;
-                --fundo-texto: #001E40;
-                    --borda: #0075FF;
-                        --roboto: 'Roboto', sans-serif;
-                            --roboto-mono: 'Roboto Mono', monospace;
-                            }
+    --branco: #FFFFFF;
+    --cor-de-fundo: #FFF0F5;
+    --fundo-senha: #FFB6C1;
+    --fundo-texto: #DB7093;
+    --borda: #FF69B4;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+}
 
                             *{
                                 font-weight: 400;
@@ -150,36 +150,35 @@
                                                                                                                                                                                                                                                                                                             flex-direction: row;
                                                                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                                                                     .footer {
-                                                                                                                                                                                                                                                                                                                        background-color: #1e1e2e;
-                                                                                                                                                                                                                                                                                                                            color: #a8a8b3;
-                                                                                                                                                                                                                                                                                                                                text-align: center;
-                                                                                                                                                                                                                                                                                                                                    padding: 25px 20px;
-                                                                                                                                                                                                                                                                                                                                        margin-top: 40px;
-                                                                                                                                                                                                                                                                                                                                            border-top: 1px solid #3a3a4d;
-                                                                                                                                                                                                                                                                                                                                                font-size: 0.9rem;
-                                                                                                                                                                                                                                                                                                                                                }
+    background-color: #C71585;
+    color: #FFE4F2;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 40px;
+    border-top: 1px solid #FF69B4;
+    font-size: 0.9rem;
+}
 
-                                                                                                                                                                                                                                                                                                                                                .footer .container {
-                                                                                                                                                                                                                                                                                                                                                    max-width: 800px;
-                                                                                                                                                                                                                                                                                                                                                        margin: 0 auto;
-                                                                                                                                                                                                                                                                                                                                                        }
+.footer .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
-                                                                                                                                                                                                                                                                                                                                                        .footer strong {
-                                                                                                                                                                                                                                                                                                                                                            color: #fff;
-                                                                                                                                                                                                                                                                                                                                                            }
+.footer strong {
+    color: #FFFFFF;
+}
 
-                                                                                                                                                                                                                                                                                                                                                            .footer-links {
-                                                                                                                                                                                                                                                                                                                                                                margin-top: 12px;
-                                                                                                                                                                                                                                                                                                                                                                }
+.footer-links {
+    margin-top: 12px;
+}
 
-                                                                                                                                                                                                                                                                                                                                                                .footer-links a {
-                                                                                                                                                                                                                                                                                                                                                                    color: #7b7b9b;
-                                                                                                                                                                                                                                                                                                                                                                        text-decoration: none;
-                                                                                                                                                                                                                                                                                                                                                                            transition: color 0.3s;
-                                                                                                                                                                                                                                                                                                                                                                            }
+.footer-links a {
+    color: #FFD1E8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
 
-                                                                                                                                                                                                                                                                                                                                                                            .footer-links a:hover {
-                                                                                                                                                                                                                                                                                                                                                                                color: #00ff88;
-                                                                                                                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                                                                                                                                                    }
+.footer-links a:hover {
+    color: #FFFFFF;
+}      
+                                                                                                                                                                                                                                                                                                    }
